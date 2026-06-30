@@ -1,6 +1,7 @@
 // This file overwrites the stock UV config.js
 
 self.__uv$config = {
+  bare: "https://scv.ovh",
   prefix: "/uv/service/",
   encodeUrl: Ultraviolet.codec.xor.encode,
   decodeUrl: Ultraviolet.codec.xor.decode,
